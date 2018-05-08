@@ -11,7 +11,7 @@ Authors:  **Sohit Reddy Kalluru** and **Akshay Sanjay Agrawal**
 ## Introduction
 * The code is written for capturing live weather data for various different cities across US.The attributes that are  considered are current temparature,maximum temparature,minimum temparature,humidity,wind speed,climatic conditions (Cloudy,Sunny,Partlycloudy,Rainy).
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/final.PNG)
+![Image of Plot](https://github.com/SohitKalluru/K-Means-Clustering-of-Major-US-Cities-based-on-Climatic-Conditions-Weather-Data-/tree/master/Images/final.PNG)
 
 * The source of  weather data is from yahoo weather portal using a Yahoo-weather-API.The data can be imported in json and xml format.
 
