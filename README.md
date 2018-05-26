@@ -9,7 +9,7 @@ Authors:  **Sohit Reddy Kalluru** and **Akshay Sanjay Agrawal**
 ---
 
 ## Introduction
-* The code is written for capturing live weather data for various different cities across US.The attributes that are  considered are current temparature,maximum temparature,minimum temparature,humidity,wind speed,climatic conditions (Cloudy,Sunny,Partlycloudy,Rainy).
+* The code is written for capturing live weather data for different cities across US.The attributes that are  considered are current temparature,maximum temparature,minimum temparature,humidity,wind speed,climatic conditions (Cloudy,Sunny,Partlycloudy,Rainy).
 
 ![Image of Plot](https://github.com/SohitKalluru/K-Means-Clustering-of-Major-US-Cities-based-on-Climatic-Conditions-Weather-Data-/blob/master/Images/final.PNG)
 
@@ -22,13 +22,13 @@ Authors:  **Sohit Reddy Kalluru** and **Akshay Sanjay Agrawal**
 
 ## Sources
   
-- [Weather-api](https://github.com/AnthonyBloomer/weather-api) is the python wrapper for yahoo weather API ,is used in this code  for       accessing api link and retrieves data from json format.
+- [Weather-api](https://github.com/AnthonyBloomer/weather-api) , the python wrapper for yahoo weather API ,is used in this code  for       accessing api link and retrieves data from json format.
 - [Folium](http://folium.readthedocs.io/en/latest/quickstart.html), a powerful Python library that helps you create different types of Leaflet maps.
-- [WOEID(Where On Earth IDentifier) ](https://gist.github.com/lukemelia/353493),for US Cities is obtained from this link.
+- WOEID(Where On Earth IDentifier),for US Cities is obtained from this [link](https://gist.github.com/lukemelia/353493).
 - [Pricipal Component Analysis(PCA)]http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html ,a Linear       dimensionality reduction.
 - [K-Means](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) for clustering.
 - [DataFrame](https://pandas.pydata.org/pandas-docs/stable/10min.html) to convert api from json format to dataframe .
-- [Outliers](http://www.whatissixsigma.net/box-plot-diagram-to-identify-outliers/) -I used this link to standardize data obtained and to get more information about outliers.
+- [Outliers](http://www.whatissixsigma.net/box-plot-diagram-to-identify-outliers/) -  to standardize data obtained and to get more information about outliers.
 
 **The code is executed in the Jupyter and spyder environment. If you're trying to execute using cmd, Windows Powershell or Apple command prompt the method may or may not vary.**
 
@@ -60,7 +60,7 @@ import matplotlib.pyplot as plt
 ```
 
 
-- Importing data from [yahoo weather api] using weather-api python wrapper. We print the data to allow us to verify what we've imported:
+- Importing data from yahoo weather api using weather-api python wrapper. The Data is printed to verify:
 
 
 ```
@@ -183,7 +183,7 @@ plt.show()
 ![Image of Plot](https://github.com/SohitKalluru/K-Means-Clustering-of-Major-US-Cities-based-on-Climatic-Conditions-Weather-Data-/blob/master/Images/kmeans.PNG)
 
 
-- The above code performs scaling on the dataframe.It converts every column vector to the range, often between zero and one, or so that  the maximum absolute value of each feature is scaled to unit size.Standard normalization of data.
+- The above code performs Standard normalization of data.It converts every column vector to the range, often between zero and one, or so that  the maximum absolute value of each feature is scaled to unit size.
 
 - The Prinicpal Component analysis is utilized for eliminating dimensions.As all the data available is in different dimensions,PCA can  be utilized to eliminate dimensions- number of components is given to be 2(dimensions).
 
@@ -197,7 +197,7 @@ locationlist = locations.values.tolist()
 
 ```
 - Above code joins the input dataframe and the output(labels after kmeans).
-- A list for lattitide and longitude is created for running a loop.
+- A list for latitude and longitude is created for running a loop.
 
 ```
 def regioncolors(counter):
@@ -257,9 +257,6 @@ display(map)
 
 ## Suggestions
 
-- This data when combined with data of logistics company along with live traffic data can provide a better understanding in transportation time required between different places ,transportation delays.It can also help a lot in determining the  days which are favourable for transportation vs days unfavourable. 
-
-- Weather Analytics: Which goods can will be accordingly in demand? Depends on weather ? Which city may have similar behaviour in terms of demands?
-
+- This data when combined with data of logistics company along with live traffic data can provide a better understanding in transportation time required between different places.It can also help in determining the days which are favourable for transportation vs days unfavourable. 
 
  
