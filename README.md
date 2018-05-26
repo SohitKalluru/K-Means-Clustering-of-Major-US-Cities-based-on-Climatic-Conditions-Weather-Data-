@@ -86,7 +86,7 @@ for i in range(0,len(places)):
 Semi-Structured Raw Data :Json Format
 
 
-![Image of Plot](https://github.com/SohitKalluru/K-Means-Clustering-of-Major-US-Cities-based-on-Climatic-Conditions-Weather-Data-/tree/master/Images/raw.png)
+![Image of Plot](https://github.com/SohitKalluru/K-Means-Clustering-of-Major-US-Cities-based-on-Climatic-Conditions-Weather-Data-/blob/master/Images/raw.png)
 
 ---
 - In the above code the raw data as seen in figure is filtered, transformed:scaled in order to create a good machine learning algorithm
@@ -94,7 +94,7 @@ Semi-Structured Raw Data :Json Format
 
 Structured Data in the form of Pandas Dataframe:
 
-![Image of Plot](https://github.com/SohitKalluru/K-Means-Clustering-of-Major-US-Cities-based-on-Climatic-Conditions-Weather-Data-/tree/master/Images/df.png)
+![Image of Plot](https://github.com/SohitKalluru/K-Means-Clustering-of-Major-US-Cities-based-on-Climatic-Conditions-Weather-Data-/blob/master/Images/df.png)
 
 ```
 from sklearn.preprocessing import MinMaxScaler    
