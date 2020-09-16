@@ -1,6 +1,6 @@
 # K-Means Clustering of Major US Cities based on Climatic Conditions:Weather Data     
 
-Authors:  **Sohit Reddy Kalluru** and **Akshay Sanjay Agrawal**
+Authors:  **Sohit R** and **Akshay Sanjay Agrawal**
 
 ---
 
